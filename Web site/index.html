@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jeu de numéro</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/app.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1 Dark Mode / Light Mode></h1>
+            <div id="screen" class="light">
+                <p>Devinez le jeu des nombres</p>
+            </div>
+
+            
+        </div>
+        <br>
+        <button class="btn btn-primary" onclick="toggleDarkMode()">Dark Mode</button>
+        <button class="btn btn-default" onclick="toggleLightMode()">Light Mode</button>
+
+
+        <div class="container">
+            <h1>Devinez le jeu des nombres</h1>
+            <p>Devinez un nombre entre 1 et 100</p>
+        <div id="message"></div>
+        <br>
+        <input type="number" id="guess" class="form-control" placeholder="Entrez votre estimation">
+        <br>
+        <button class="btn btn-primary" onclick="checkGuess()">Soumettre</button>
+        <button class="btn btn-default" onclick="resetGame()">Réinitialiser</button>
+        <br>
+        <p>Tentatives restantes: <span id="Restant"></span></p>
+
+        </div>
+        <script src="js/app.js"></script>
+       
+
+    </body>
+</html>

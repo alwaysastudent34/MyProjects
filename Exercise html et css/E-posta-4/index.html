@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> </title>
+
+    </head>
+    <body>
+        <form onsubmit="return validateForm()">
+            <div>
+              <label for="nom">Nom :</label>
+              <input type="text" id="nom" name="nom" required>
+            </div>
+            <div>
+              <label for="prenom">Prénom :</label>
+              <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div>
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="niveau_academique">Niveau académique en informatique :</label>
+              <select id="niveau_academique" name="niveau_academique" required>
+                <option value="">Sélectionner un niveau</option>
+                <option value="debutant">Débutant</option>
+                <option value="intermediaire">Intermédiaire</option>
+                <option value="expert">Expert</option>
+              </select>
+            </div>
+            <div>
+              <label for="cours_suivis">Cours suivis :</label>
+              <select multiple id="cours_suivis" name="cours_suivis[]" required>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+              </select>
+            </div>
+            <div>
+              <input type="submit" value="Envoyer">
+            </div>
+          </form>
+          
+          <script>
+            function validateForm() {
+              var nom = document.getElementById("nom").value;
+              var prenom = document.getElementById("prenom").value;
+              var email = document.getElementById("email").value;
+              var niveau_academique = document.getElementById("niveau_academique").value;
+              var cours_suivis = document.getElementById("cours_suivis").value;
+          
+              if (nom == "" || prenom == "" || email == "" || niveau_academique == "" || cours_suivis == "") {
+                alert("Veuillez remplir tous les champs requis.");
+                return false;
+              }
+          
+              return true;
+            }
+          </script>
+          
+
+    </body>
+</html>

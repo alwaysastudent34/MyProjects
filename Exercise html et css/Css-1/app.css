@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .chart {
+    background-color: lightgray;
+    border: 1px solid black;
+    flex-basis: 30%;
+    height: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  button {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  footer {
+    background-color: lightblue;
+    bottom: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  

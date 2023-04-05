@@ -1,0 +1,30 @@
+.btn-menu {
+    background-color: gray;
+    color: rgb(239, 18, 18);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .btn-menu:hover {
+    background-color: red;
+    color: rgb(199, 14, 14);
+  }
+  
+  .btn-menu:hover {
+    background-color: red;
+  }
+
+  
+
+  .class {
+    background-color: grey;
+  }
+  
+  .navi:hover {
+    background-color: red;
+    
+  }
+
+ 
+ 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Structure de base de la page HTML</title>
+  </head>
+  <body>
+    <h1>Structure de base de la page HTML</h1>
+    <p>Une page HTML comprend un Doctype, une balise html, un head et un body. Le Doctype définit le type de document HTML utilisé. Le head contient des informations sur la page, telles que le titre et les métadonnées. Le body contient le contenu visible de la page.</p>
+    <p>Les éléments clés de la structure d'une page HTML incluent :</p>
+    <ol>
+      <li>Doctype</li>
+      <li>Balise html</li>
+      <li>Head</li>
+      <li>Title</li>
+      <li>Body</li>
+    </ol>
+    <img src="https://images.unsplash.com/photo-1675622211805-10feccb9ab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Image de la structure de base de la page HTML">
+    <table>
+      <tr>
+        <th>Élément</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Doctype</td>
+        <td>Définit le type de document HTML utilisé</td>
+      </tr>
+      <tr>
+        <td>Balise html</td>
+        <td>Contient tout le contenu de la page</td>
+      </tr>
+      <tr>
+        <td>Head</td>
+        <td>Contient des informations sur la page, telles que le titre et les métadonnées</td>
+      </tr>
+      <tr>
+        <td>Title</td>
+        <td>Spécifie le titre de la page qui s'affiche dans l'onglet du navigateur</td>
+      </tr>
+      <tr>
+        <td>Body</td>
+        <td>Contient le contenu visible de la page</td>
+      </tr>
+    </table>
+    <a href="https://www.example.com">Ressource en ligne</a>
+    <p><strong>Les éléments HTML de base incluent :</strong></p>
+    <ul>
+      <li>Paragraphes</li>
+      <li>En-têtes</li>
+      <li>Liens</li>
+      <li>Images</li>
+      <li>Listes</li>
+    </ul>
+    <p><em>« Une page HTML bien structurée peut rendre le contenu plus facile à comprendre et à naviguer. »</em></p>
+  </body>
+</html>

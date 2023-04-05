@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire de contact</title>
+  <style>
+    .error {
+      color: red;
+      font-size: 12px;
+    }
+
+    
+  body {
+    background-color: lightgray;
+  }
+
+  form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    margin: 50px auto;
+    width: 500px;
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+  .error {
+    display: none;
+  }
+  input:invalid + .error {
+    display: inline;
+  }
+
+  .h1 {
+    align-content: center;
+    color: aqua;
+  }
+
+
+
+
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+    
+    <a href="index.html">D'accueil </a>
+</ul>
+</nav>
+  <h1>Contactez</h1>
+  <form action="#" method="post">
+    <label for="email">Courrier électronique:</label>
+    <input type="email" id="email" name="email" required>
+    <span class="error">L'adresse électronique est obligatoire</span>
+    <br><br>
+
+    <label for="subject">Sujet:</label>
+    <input type="text" id="subject" name="subject" required>
+    <span class="error">Le sujet est obligatoire</span>
+    <br><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <span class="error">Le message est obligatoire</span>
+    <br><br>
+
+    <label for="phone">Téléphone:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <span class="error">Téléphone est obligatoire</span>
+    <br><br>
+
+    <input type="submit" value="Soumettre">
+  </form>
+
+  <style>
+    .error {
+      display: none;
+    }
+    input:invalid + .error {
+      display: inline;
+    }
+  </style>
+</body>
+</html>
+

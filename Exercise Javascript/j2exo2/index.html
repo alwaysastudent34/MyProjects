@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text" href="Css/app.css">
+        <title>Essayer</title>
+
+
+    </head>
+    <body>
+        
+        
+<h2>The oninput Event</h2>
+
+
+
+
+<input type="text" id="myInput" oninput="myFunction()">
+
+<p id="demo"></p>
+
+            
+            
+            
+            
+        
+        
+        <script>
+            function myFunction() {
+  let text = document.getElementById("myInput").value;
+  document.getElementById("demo").innerHTML = "You wrote: " + text;
+  
+}
+            </script>
+            
+            
+
+
+    </body>
+</html>

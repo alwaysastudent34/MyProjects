@@ -1,0 +1,58 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: left;
+    border-right: 2px solid blue;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  section {
+    float: right;
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .menu {
+    position: relative;
+  }
+  
+  .menu ul {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+  .menu li:hover ul {
+    display: block;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
